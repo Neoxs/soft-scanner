@@ -29,7 +29,7 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./soft-scanner-web
       dockerfile: Dockerfile
     container_name: soft-scanner-backend
     ports:
@@ -48,7 +48,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./soft-scanner-frontend
       dockerfile: Dockerfile
     container_name: soft-scanner-frontend
     ports:
