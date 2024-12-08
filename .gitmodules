@@ -1,6 +1,6 @@
-[submodule "frontend"]
-	path = frontend
+[submodule "soft-scanner-frontend"]
+	path = soft-scanner-frontend
 	url = https://github.com/Neoxs/soft-scanner-frontend
-[submodule "backend"]
-	path = backend
+[submodule "soft-scanner-web"]
+	path = soft-scanner-web
 	url = https://github.com/Neoxs/soft-scanner-web
